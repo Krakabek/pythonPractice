@@ -1,6 +1,7 @@
 __author__ = 'Danil Radkovsky'
 
-import sys, random
+import sys
+import random
 def compute(n):
     i = 0; s = 0
     while i <= n:
