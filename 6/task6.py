@@ -6,7 +6,7 @@ try:
     infilename = sys.argv[1]
     outfilename = sys.argv[2]
 except:
-    print "Usage:", sys.argv[0], "infile outfile"
+    print("Usage:", sys.argv[0], "infile outfile")
     sys.exit(1)
 
 ifile = open(infilename, "r")
